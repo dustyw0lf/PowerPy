@@ -24,6 +24,11 @@ $PythonTools["carbon14"] = @{Download = "git clone https://github.com/Lazza/Carb
 $PythonTools["maigret"] = @{Download = "python -m pip install maigret"; Exec = "maigret" }
 ```
 
+Then simply run the script and follow the on-screen instructions:
+```powershell
+.\powerpy.ps1
+```
+
 ## ToDo
 - [ ] Provide support for [Poetry](https://python-poetry.org) projects out of the box. Right now they require Poetry to be preinstalled.
 
