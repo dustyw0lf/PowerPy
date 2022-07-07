@@ -30,7 +30,7 @@ Run the script and follow the on-screen instructions:
 ```
 
 Restart your terminal for changes to take effect.
-Prefix the tool's name with `tool-` and use it as you normally would
+Prefix `tool-` to the tool's name and use it as you normally would
 ```powershell
 tool-[tool name] [arguments]
 ```
