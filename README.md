@@ -16,7 +16,7 @@ To add a new tool, create a new line after line 7 (`$PythonTools = [ordered]@{}`
 ```powershell
 $PythonTools["Project name"] = @{Download = "Download method"; Exec = "How is the tool executed" }
 ```
-For example
+For example:
 ```powershell
 # Installation method 1: git clone
 $PythonTools["carbon14"] = @{Download = "git clone https://github.com/Lazza/Carbon14.git"; Exec = "python .\carbon14.py" }
@@ -30,11 +30,11 @@ Run the script and follow the on-screen instructions:
 ```
 
 Restart your terminal for changes to take effect.
-Prefix `tool-` to the tool's name and use it as you normally would
+Prefix `tool-` to the tool's name and use it as you normally would:
 ```powershell
 tool-[tool name] [arguments]
 ```
-For example
+For example:
 ```powershell
 tool-maigret --help
 ```
