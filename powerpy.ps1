@@ -137,7 +137,7 @@ function Install-PythonTool {
         }
         else { $RelativePath = $ToolExec }
         
-        $FunctionText = "function tool-$ToolName {
+        $FunctionText = "`nfunction tool-$ToolName {
             Set-Location `"$PWD\$RelativePath`"
             Invoke-Expression `".\venv\scripts\activate`"
             Invoke-Expression `"$ToolExec `$args`"
