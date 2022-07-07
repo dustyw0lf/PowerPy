@@ -8,7 +8,7 @@ PowerPy is a PowerShell script that installs Python projects into seperate virtu
 - Supports updating downloaded projects.
 
 ## Installation
-Make sure to have Python and Git installed, and then clone the repo or copy the `powerpy.ps1` file.
+Make sure to have Python and Git installed, and then clone the repo or copy the `powerpy.ps1` file to the directory you want to install the tools in.
 
 ## Usage
 PowerPy uses an interanal hash table to know which tools to install.
