@@ -40,7 +40,7 @@ tool-maigret --help
 ```
 
 ## ToDo
-- [ ] Provide support for [Poetry](https://python-poetry.org) projects out of the box. Right now they require Poetry to be preinstalled.
+- [ ] Provide support for [Poetry](https://python-poetry.org) projects out of the box. Right now tools using Poetry require it to be preinstalled.
 
 ## Credits
 All credit for the tools used as examples - [Carbon14](https://github.com/Lazza/Carbon14), [Maigret](https://github.com/soxoj/maigret), and [Telegram-phone-number-checker](https://github.com/bellingcat/telegram-phone-number-checker) - goes to their respective developers.
