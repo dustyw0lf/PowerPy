@@ -174,7 +174,7 @@ function Install-PythonTool {
     }
 }
 
-## ----------------------Main Script----------------------
+## ----------------------Main Script-----------------------
 
 Clear-Host
 Write-Host "Welcome to the Python tools installer script" -ForegroundColor Green
